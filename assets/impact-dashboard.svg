@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
   <title id="title">Engineering impact</title>
-  <desc id="desc">Four metrics: 99 percent API latency reduction, 20 millisecond query response, more than 40 microservice repositories modernized, and more than 10 thousand concurrent tasks supported.</desc>
+  <desc id="desc">Four metrics: 99 percent API latency reduction, CI metadata retrieval in under five seconds, more than 10 thousand concurrent tasks, and a 150 millisecond p95 marketplace latency budget.</desc>
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0B1930"/>
@@ -30,16 +30,16 @@
     <text x="66" y="183" fill="#F8FAFC" font-size="16" font-weight="650">API LATENCY REDUCTION</text>
     <text x="66" y="207" fill="#94A3B8" font-size="13">PostgreSQL query optimization</text>
 
-    <text x="346" y="151" fill="#7DD3FC" font-size="44" font-weight="800">20ms</text>
-    <text x="346" y="183" fill="#F8FAFC" font-size="16" font-weight="650">QUERY RESPONSE</text>
-    <text x="346" y="207" fill="#94A3B8" font-size="13">Reduced from 40 seconds</text>
+    <text x="346" y="151" fill="#7DD3FC" font-size="44" font-weight="800">&lt;5s</text>
+    <text x="346" y="183" fill="#F8FAFC" font-size="16" font-weight="650">CI METADATA LOOKUP</text>
+    <text x="346" y="207" fill="#94A3B8" font-size="13">Reduced from 20 minutes</text>
 
-    <text x="626" y="151" fill="#C4B5FD" font-size="44" font-weight="800">40+</text>
-    <text x="626" y="183" fill="#F8FAFC" font-size="16" font-weight="650">MICROSERVICE REPOS</text>
-    <text x="626" y="207" fill="#94A3B8" font-size="13">Kubernetes delivery modernized</text>
+    <text x="626" y="151" fill="#C4B5FD" font-size="44" font-weight="800">10k+</text>
+    <text x="626" y="183" fill="#F8FAFC" font-size="16" font-weight="650">CONCURRENT TASKS</text>
+    <text x="626" y="207" fill="#94A3B8" font-size="13">Titan orchestration engine</text>
 
-    <text x="906" y="151" fill="#C4B5FD" font-size="44" font-weight="800">10k+</text>
-    <text x="906" y="183" fill="#F8FAFC" font-size="16" font-weight="650">CONCURRENT TASKS</text>
-    <text x="906" y="207" fill="#94A3B8" font-size="13">Failure-aware orchestration</text>
+    <text x="906" y="151" fill="#C4B5FD" font-size="44" font-weight="800">150ms</text>
+    <text x="906" y="183" fill="#F8FAFC" font-size="16" font-weight="650">P95 LATENCY BUDGET</text>
+    <text x="906" y="207" fill="#94A3B8" font-size="13">100K+ item discovery system</text>
   </g>
 </svg>

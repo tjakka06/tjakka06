@@ -4,7 +4,7 @@
 
 <h1 align="center">Hi, I'm Tejaswini Jakka 👋</h1>
 
-<h3 align="center">Software Developer Engineer building observable, failure-aware systems that stay fast under load.</h3>
+<h3 align="center">Software Developer Engineer building responsive products, fast APIs, and reliable distributed systems.</h3>
 
 <p align="center">
   <a href="mailto:tejaswinijakka6@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20Talk-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Tejaswini" /></a>
@@ -15,93 +15,93 @@
 
 ## About me
 
-I'm a software developer engineer specializing in **backend systems, distributed infrastructure, platform engineering, and observability**. My work sits at the intersection of performance and reliability: designing APIs, diagnosing production failures, instrumenting services, and building systems that recover cleanly when infrastructure fails.
+I'm a software developer engineer working across **React interfaces, backend APIs, data systems, and distributed infrastructure**. I like turning complex data into useful products, making slow services fast, and designing systems that recover when workers fail.
 
-- 🔭 Building telemetry-analysis services at **ASU Decision Theater Network**
-- 🧭 Previously engineered platform and delivery systems at **F5 Networks** and **Darwinbox**
+- 🔭 Building interactive data-exploration features at **Global Futures Laboratory** with React, FastAPI, PostgreSQL, and Redis
+- 🧭 Previously built engineering tools and backend services at **F5 Networks** and **Darwinbox**
 - 🎓 M.S. in Computer Science from **Arizona State University** - **4.0/4.0 GPA**
 - 📍 Based in **Tempe, Arizona**
-- 💡 Currently exploring **production-grade AI systems, agentic workflows, failure-aware orchestration, and automated diagnostics**
+- 💡 Interested in **retrieval quality, experiment design, and fault-tolerant orchestration**
 
 ## Engineering impact
 
 <p align="center">
-  <img src="./assets/impact-dashboard.svg" alt="Engineering impact: 99 percent lower API latency, 20 millisecond query response, 40 plus microservice repositories modernized, and 10 thousand plus concurrent tasks supported" width="100%" />
+  <img src="./assets/impact-dashboard.svg" alt="Engineering impact: 99 percent lower API latency, CI metadata retrieval under five seconds, 10 thousand plus concurrent tasks, and 150 millisecond p95 marketplace results" width="100%" />
 </p>
 
 - ⚡ Reduced a PostgreSQL-backed Trade API from **40 seconds to 20 milliseconds** through indexing and query-plan analysis.
 - 🚀 Cut CI build-metadata retrieval from **20 minutes to under 5 seconds**, removing a major developer-feedback bottleneck.
-- ☸️ Modernized Kubernetes and Docker delivery across **40+ microservice repositories** while preserving zero downtime.
-- 🧾 Built auditable applicant-tracking workflows supporting **500+ faculty applications**.
-- 🧠 Produced **97%-accurate capacity forecasts** from Prometheus telemetry for proactive cloud planning.
-- 🛡️ Diagnosed a high-severity outage using Datadog logs, metrics, and traces, then converted findings into reusable runbooks.
+- 🧾 Built payroll, leave, and employee-data APIs processing **50K+ HR records per month**.
+- 🛒 Built discovery for a **100K+ item catalog** with a **150ms p95 latency budget**.
+- ⚙️ Architected Titan to handle **10K+ concurrent tasks** with failure recovery and autoscaling.
 
 ## Technology stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,go,aws,kubernetes,docker,fastapi,postgres,redis&perline=10" alt="Core technology icons" />
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,cs,go,js,ts,react,aws,azure,docker,kubernetes,postgres,redis&perline=7" alt="Core technology icons" />
 </p>
 
 ### Languages
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
 
-### Backend and platform
+### Frontend and backend
+
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=google&logoColor=white)
+
+### Cloud, data, and delivery
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=google&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-
-### Observability and delivery
-
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Loki](https://img.shields.io/badge/Loki-F7BF17?style=flat-square&logo=grafana&logoColor=111827)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Artifactory](https://img.shields.io/badge/Artifactory-40BE46?style=flat-square&logo=jfrog&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ## Featured engineering work
 
 ### ⚙️ [Titan: distributed task orchestration engine](https://github.com/tjakka06/Titan)
 
-An open-source Go control plane for reliable task execution across Docker workers. Its load generator can enqueue **10,000+ jobs** for testing.
+An open-source Go control plane designed for **10K+ concurrent tasks** across Docker workers.
 
 - Built Docker-based workers, Redis-backed queues, and an autoscaler driven by queue depth.
 - Implemented gRPC heartbeats and stateful failure detection across worker nodes.
 - Automatically re-queued interrupted jobs to preserve **at-least-once execution** during infrastructure faults.
 
-### 📈 Observability intelligence and capacity forecasting
+### 🛒 Marketplace discovery and personalization
 
-Telemetry intelligence that turns Prometheus metrics into proactive reliability decisions.
+A discovery system designed to reduce choice overload across a **100K+ item catalog**.
 
-- Engineered temporal workload features that produced **97%-accurate capacity forecasts**.
-- Built Grafana dashboards for cloud resource planning and error-budget visibility.
-- Joined metric anomalies with service metadata to generate prioritized capacity actions.
+- Combined vector retrieval, behavioral signals, Redis caching, and FastAPI within a **150ms p95 latency budget**.
+- Built an A/B evaluation pipeline for click-through rate, add-to-cart conversion, and ranking quality by cohort.
 
-### 🤖 AI-assisted incident orchestration platform
+### 🌐 Interactive data exploration
 
-Distributed diagnostics infrastructure designed to sustain **10,000+ concurrent tasks**. The platform uses Docker workers, Redis queue telemetry, and tool invocation to scale diagnostic workflows as demand changes.
+At Global Futures Laboratory, built React dashboards and reusable FastAPI contracts that let stakeholders explore multi-terabyte datasets through responsive interfaces and APIs.
 
 ## Experience
 
 | Period | Role | Organization | Focus |
 |---|---|---|---|
-| 2025 - Present | **Software Developer** | ASU Decision Theater Network | Telemetry analytics, FastAPI, PostgreSQL performance, Redis, SLI dashboards |
-| 2022 - 2024 | **Software Engineer** | F5 Networks | Kubernetes delivery, CI/CD performance, observability, incident response |
-| 2022 | **Software Engineer** | Darwinbox | Cloud-native microservices, REST APIs, Ansible automation |
-| 2020 - 2021 | **Backend Developer** | CBIT Open Source Community | Python, Flask, MySQL, applicant-tracking workflows |
+| 2025 - Present | **Software Developer** | Global Futures Laboratory | React, FastAPI, PostgreSQL, Redis, interactive data exploration |
+| 2022 - 2024 | **Software Engineer** | F5 Networks | Python automation, Flask and Tornado APIs, React internal tools, SQL performance |
+| 2022 | **Software Engineer** | Darwinbox | Python and Flask HR services, role-based access, validation, unit testing |
 
 ## GitHub stats
 
@@ -119,7 +119,7 @@ Distributed diagnostics infrastructure designed to sustain **10,000+ concurrent 
 
 ---
 
-<h3 align="center">Let's build reliable systems that are easy to operate.</h3>
+<h3 align="center">Let's build software that's useful, fast, and reliable.</h3>
 
 <p align="center">
   <a href="mailto:tejaswinijakka6@gmail.com"><strong>Email</strong></a>

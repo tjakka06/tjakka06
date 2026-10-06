@@ -11,7 +11,7 @@
 
 I build **responsive products, fast data APIs, and fault-tolerant systems**. At **Global Futures Laboratory**, I turn complex datasets into React and FastAPI workflows. Previously, I built backend services and internal engineering tools at **F5 Networks** and **Darwinbox**.
 
-## Selected impact
+## Engineering highlights
 
 <p align="center">
   <img src="./assets/performance-story.svg" alt="Trade API latency improved from 40 seconds to 20 milliseconds; CI metadata lookup improved from 20 minutes to under five seconds" width="100%" />

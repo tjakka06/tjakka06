@@ -106,6 +106,11 @@ At Global Futures Laboratory, built React dashboards and reusable FastAPI contra
 - **Master of Science in Computer Science**, Arizona State University - GPA: **4.0/4.0**
 - **Bachelor of Engineering in Computer Science**, Chaitanya Bharathi Institute of Technology - GPA: **8.5/10.0**
 
+## Publications
+
+- **[Self-Driving Cars to Drive Autonomously using Deep Learning](https://ijsrem.com/download/self-driving-cars-to-drive-autonomously-using-deep-learning)** — *International Journal of Scientific Research in Engineering and Management*, 2023.
+- **[Application for High-Quality Produced Crop Price Forecasting through Deep and Machine Learning](https://www.irjmets.com/uploadedfiles/paper/issue_11_november_2023/45830/final/fin_irjmets1699003081.pdf)** — *International Research Journal of Modernization in Engineering Technology and Science*, 2023. DOI: `10.56726/IRJMETS45830`.
+
 ## Where I build
 
 <p align="center">

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="374" viewBox="0 0 1200 374" role="img" aria-labelledby="title desc">
+  <title id="title">Titan task orchestration architecture</title>
+  <desc id="desc">Titan enqueues jobs to Redis, Docker workers claim and process them, and the Go control plane monitors heartbeats, requeues failed work, and scales workers.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071625"/>
+      <stop offset="0.58" stop-color="#10284A"/>
+      <stop offset="1" stop-color="#20225E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#28D7D1"/>
+      <stop offset="0.56" stop-color="#4DA7FF"/>
+      <stop offset="1" stop-color="#A87CFF"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0V30H0" fill="none" stroke="#93C5FD" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="374" rx="22" fill="url(#surface)"/>
+  <rect width="1200" height="374" rx="22" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1200" height="6" rx="3" fill="url(#accent)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="48" y="48" fill="#55DED8" font-size="14" font-weight="700" letter-spacing="2">FEATURED SYSTEM / 01</text>
+    <text x="48" y="105" fill="#F8FAFC" font-size="45" font-weight="800">Titan</text>
+    <text x="175" y="104" fill="#CBD5E1" font-size="20">Fault-tolerant task orchestration</text>
+    <text x="49" y="136" fill="#94A3B8" font-size="15">GO  ·  REDIS  ·  gRPC  ·  DOCKER</text>
+
+    <text x="996" y="69" fill="#F8FAFC" font-size="38" font-weight="800">10K+</text>
+    <text x="997" y="94" fill="#CBD5E1" font-size="13" letter-spacing="0.8">TASKS IN LOAD RUN</text>
+    <text x="48" y="175" fill="#8EA3BD" font-size="12" font-weight="700" letter-spacing="1.8">TASK FLOW</text>
+  </g>
+
+  <rect x="48" y="190" width="218" height="90" rx="13" fill="#081827" stroke="#2DD4BF" stroke-opacity="0.75"/>
+  <rect x="319" y="190" width="280" height="90" rx="13" fill="#081827" stroke="#4DA7FF" stroke-opacity="0.7"/>
+  <rect x="652" y="190" width="500" height="90" rx="13" fill="#081827" stroke="#A78BFA" stroke-opacity="0.7"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="68" y="217" fill="#55DED8" font-size="12" font-weight="700" letter-spacing="1.5">01 / ENQUEUE</text>
+    <text x="68" y="249" fill="#F8FAFC" font-size="23" font-weight="700">Producer</text>
+
+    <text x="339" y="217" fill="#87BDFF" font-size="12" font-weight="700" letter-spacing="1.5">02 / CLAIM</text>
+    <text x="339" y="249" fill="#F8FAFC" font-size="23" font-weight="700">Redis queues</text>
+    <text x="339" y="268" fill="#94A3B8" font-size="12">pending → processing</text>
+
+    <text x="673" y="217" fill="#C4B5FD" font-size="12" font-weight="700" letter-spacing="1.5">03 / EXECUTE + ACK</text>
+    <text x="673" y="249" fill="#F8FAFC" font-size="23" font-weight="700">Docker workers</text>
+  </g>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M277 235h28m-8-7 8 7-8 7"/>
+    <path d="M610 235h28m-8-7 8 7-8 7"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">
+    <rect x="954" y="212" width="52" height="42" rx="8" fill="#31295A" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <rect x="1016" y="212" width="52" height="42" rx="8" fill="#31295A" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <rect x="1078" y="212" width="52" height="42" rx="8" fill="#31295A" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="968" y="238" fill="#DDD6FE">W1</text>
+    <text x="1030" y="238" fill="#DDD6FE">W2</text>
+    <text x="1092" y="238" fill="#DDD6FE">W3</text>
+  </g>
+
+  <rect x="48" y="301" width="1104" height="50" rx="12" fill="#071426" fill-opacity="0.8" stroke="#527193" stroke-opacity="0.5"/>
+  <rect x="48" y="301" width="5" height="50" rx="2.5" fill="#A78BFA"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">
+    <text x="72" y="332" fill="#C4B5FD" font-weight="700">GO CONTROL PLANE</text>
+    <text x="267" y="332" fill="#CBD5E1">gRPC heartbeats</text>
+    <text x="503" y="332" fill="#CBD5E1">failed-job requeue</text>
+    <text x="763" y="332" fill="#CBD5E1">queue-depth autoscaling</text>
+  </g>
+  <g fill="#59738D">
+    <circle cx="480" cy="327" r="3"/>
+    <circle cx="739" cy="327" r="3"/>
+  </g>
+</svg>

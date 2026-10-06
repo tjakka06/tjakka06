@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="272" viewBox="0 0 1200 272" role="img" aria-labelledby="title desc">
+  <title id="title">Measured engineering improvements</title>
+  <desc id="desc">Trade API latency improved from 40 seconds to 20 milliseconds; CI metadata lookup improved from 20 minutes to under five seconds.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071625"/>
+      <stop offset="0.58" stop-color="#10284A"/>
+      <stop offset="1" stop-color="#20225E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#28D7D1"/>
+      <stop offset="0.56" stop-color="#4DA7FF"/>
+      <stop offset="1" stop-color="#A87CFF"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0V30H0" fill="none" stroke="#93C5FD" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="272" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="272" rx="22" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1200" height="6" rx="3" fill="url(#accent)"/>
+  <text x="45" y="45" fill="#AFC4DB" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="700" letter-spacing="2">MEASURED IMPROVEMENTS / PRODUCTION SYSTEMS</text>
+
+  <rect x="42" y="67" width="538" height="165" rx="16" fill="#081827" stroke="#28D7D1" stroke-opacity="0.48"/>
+  <rect x="620" y="67" width="538" height="165" rx="16" fill="#081827" stroke="#A87CFF" stroke-opacity="0.5"/>
+  <rect x="42" y="67" width="538" height="4" rx="2" fill="#28D7D1"/>
+  <rect x="620" y="67" width="538" height="4" rx="2" fill="#A87CFF"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="70" y="101" fill="#66E5DC" font-size="13" font-weight="700" letter-spacing="1.7">TRADE API / POSTGRESQL</text>
+    <text x="70" y="166" fill="#9CAFC4" font-size="43" font-weight="700">40s</text>
+    <text x="274" y="166" fill="#F8FAFC" font-size="51" font-weight="800">20ms</text>
+    <text x="70" y="203" fill="#B9C9DC" font-size="15">Query-plan analysis + selective indexes</text>
+
+    <text x="648" y="101" fill="#C6B6FF" font-size="13" font-weight="700" letter-spacing="1.7">CI BUILD METADATA / F5 NETWORKS</text>
+    <text x="648" y="166" fill="#9CAFC4" font-size="43" font-weight="700">20min</text>
+    <text x="908" y="166" fill="#F8FAFC" font-size="51" font-weight="800">&lt;5s</text>
+    <text x="648" y="203" fill="#B9C9DC" font-size="15">Redesigned SQL mappings + indexes</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path d="M213 148h37m-10-9 10 9-10 9" stroke="#55DED8"/>
+    <path d="M847 148h38m-10-9 10 9-10 9" stroke="#B09AFF"/>
+  </g>
+  <text x="44" y="258" fill="#829AB6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0.7">BEFORE</text>
+  <text x="1121" y="258" fill="#829AB6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0.7">AFTER</text>
+</svg>

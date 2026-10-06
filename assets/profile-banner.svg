@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Tejaswini Jakka - Software Developer Engineer</title>
+  <desc id="desc">A dark blue and violet technical banner with connected system nodes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081426"/>
+      <stop offset="0.52" stop-color="#102A56"/>
+      <stop offset="1" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#93C5FD" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+  <circle cx="1050" cy="48" r="150" fill="#7C3AED" opacity="0.11"/>
+  <circle cx="1138" cy="260" r="180" fill="#0EA5E9" opacity="0.08"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.55">
+    <path d="M835 82 L930 48 L1025 92 L1105 54"/>
+    <path d="M835 82 L900 160 L1000 132 L1090 190 L1160 142"/>
+    <path d="M900 160 L855 238 L970 252 L1090 190"/>
+    <path d="M1025 92 L1000 132 L970 252"/>
+  </g>
+  <g fill="#E0F2FE" stroke="#38BDF8" stroke-width="3" filter="url(#glow)">
+    <circle cx="835" cy="82" r="7"/><circle cx="930" cy="48" r="7"/>
+    <circle cx="1025" cy="92" r="8"/><circle cx="1105" cy="54" r="6"/>
+    <circle cx="900" cy="160" r="9"/><circle cx="1000" cy="132" r="7"/>
+    <circle cx="1090" cy="190" r="9"/><circle cx="1160" cy="142" r="6"/>
+    <circle cx="855" cy="238" r="7"/><circle cx="970" cy="252" r="8"/>
+  </g>
+
+  <rect x="70" y="56" width="76" height="6" rx="3" fill="url(#accent)"/>
+  <text x="70" y="125" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="48" font-weight="700" letter-spacing="0.3">Tejaswini Jakka</text>
+  <text x="72" y="171" fill="#BAE6FD" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="23" font-weight="500">Software Developer Engineer</text>
+  <text x="72" y="216" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" letter-spacing="0.5">DISTRIBUTED SYSTEMS  ·  OBSERVABILITY  ·  CLOUD INFRASTRUCTURE</text>
+</svg>

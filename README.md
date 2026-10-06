@@ -9,7 +9,6 @@
 <p align="center">
   <a href="mailto:tejaswinijakka6@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20Talk-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Tejaswini" /></a>
   <a href="https://www.linkedin.com/in/tejaswini-jakka-774366a0/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-  <a href="https://tejaswinijakka.github.io/"><img src="https://img.shields.io/badge/Portfolio-Explore-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit portfolio" /></a>
   <a href="https://github.com/tjakka06"><img src="https://img.shields.io/badge/GitHub-Follow-111827?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" /></a>
 </p>
 
@@ -20,7 +19,6 @@ I'm a software developer engineer working across **React interfaces, backend API
 - 🔭 Building interactive data-exploration features at **Global Futures Laboratory** with React, FastAPI, PostgreSQL, and Redis
 - 🧭 Previously built engineering tools and backend services at **F5 Networks** and **Darwinbox**
 - 🎓 M.S. in Computer Science from **Arizona State University** - **4.0/4.0 GPA**
-- 📍 Based in **Tempe, Arizona**
 - 💡 Interested in **retrieval quality, experiment design, and fault-tolerant orchestration**
 
 ## Engineering impact
@@ -125,6 +123,4 @@ At Global Futures Laboratory, built React dashboards and reusable FastAPI contra
   <a href="mailto:tejaswinijakka6@gmail.com"><strong>Email</strong></a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/tejaswini-jakka-774366a0/"><strong>LinkedIn</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://tejaswinijakka.github.io/"><strong>Portfolio</strong></a>
 </p>

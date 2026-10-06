@@ -101,17 +101,18 @@ At Global Futures Laboratory, built React dashboards and reusable FastAPI contra
 | 2022 - 2024 | **Software Engineer** | F5 Networks | Python automation, Flask and Tornado APIs, React internal tools, SQL performance |
 | 2022 | **Software Engineer** | Darwinbox | Python and Flask HR services, role-based access, validation, unit testing |
 
-## GitHub stats
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tjakka06&amp;theme=github_dark" alt="Tejaswini's GitHub statistics" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tjakka06&amp;theme=github_dark" alt="Tejaswini's public repositories by language" />
-</p>
-
 ## Education
 
 - **Master of Science in Computer Science**, Arizona State University - GPA: **4.0/4.0**
 - **Bachelor of Engineering in Computer Science**, Chaitanya Bharathi Institute of Technology - GPA: **8.5/10.0**
+
+## Where I build
+
+<p align="center">
+  <img src="./assets/github-activity.svg" alt="Private team engineering alongside public work on Titan" width="100%" />
+</p>
+
+Most of my day-to-day contributions are in **private team repositories**, so public-only commit and language cards understate that work. GitHub's contribution graph below shows eligible private activity without exposing repository details. For code you can review, start with [Titan](https://github.com/tjakka06/Titan); for professional outcomes, see the engineering impact above.
 
 <!-- Certifications and YouTube links are intentionally omitted because none were supplied in the resume or profile information. -->
 
